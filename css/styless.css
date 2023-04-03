@@ -1,0 +1,283 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+    overflow-y: auto;
+} */
+
+html {
+    stroke: smooth;
+    scroll-behavior: smooth;
+}
+
+.section {
+    width: 33rem;
+}
+
+.section1 {
+    --aspect-ratio: 2/1
+}
+
+:root {
+    --navbar-height: 70px;
+}
+
+.rightNav {
+    width: 50;
+    text-align: right;
+}
+
+.background {
+    background: white;
+    background-blend-mode: darken;
+    background-size: cover;
+
+}
+
+.text-bigger {
+    font-family: 'Piazzolla', serif;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    color: white;
+}
+
+.text-big {
+    font-family: 'Piazzolla', serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 480px;
+    color: white;
+}
+
+.box-main {
+    background-color: rgb(210, 209, 209);
+    image-orientation: fill;
+}
+
+#services {
+    margin: 34px;
+    display: inline-flex;
+    columns: auto;
+
+}
+
+.box1 {
+    padding: 30px;
+    margin: 3px 6px;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+    width: 300px;
+}
+
+.box1:hover {
+    background-color: rgb(235, 171, 235);
+}
+
+.box2 {
+    padding: 5px;
+    margin: 3px 6px;
+    border-radius: 10px;
+    background-color: purple;
+    flex-direction: column-reverse;
+    width: 300px;
+}
+
+.box3 {
+
+    padding: 30px;
+    margin: 3px 6px;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+    width: 300px;
+}
+
+.box3:hover {
+    background-color: rgb(235, 171, 235);
+}
+
+#designers {
+    margin: 34px;
+    display: flex;
+    overflow-y: hidden;
+}
+
+.cube1 {
+    float: left;
+    padding: 5px;
+    margin: 3px 6px;
+    border-radius: 5px;
+    background-color: rgb(230, 229, 229);
+    width: 270px;
+    border-image: round;
+
+}
+
+.cube2 {
+    float: left;
+    padding: 5px;
+    margin: 3px 6px;
+    border-radius: 5px;
+    background-color: rgb(230, 229, 229);
+    width: 270px;
+}
+
+.cube3 {
+    float: left;
+    padding: 5px;
+    margin: 3px 6px;
+    border-radius: 5px;
+    background-color: rgb(230, 229, 229);
+    width: 270px;
+}
+
+.cube4 {
+    float: left;
+    padding: 5px;
+    margin: 3px 6px;
+    border-radius: 5px;
+    background-color: rgb(230, 229, 229);
+    width: 270px;
+
+}
+
+
+
+.fa {
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 2px 5px;
+    font-size: 30px;
+    width: 30px;
+    color: purple;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-pinterest {
+    color: red;
+}
+
+.fa-instagram {
+    color: purple;
+}
+
+.fa-youtube-play {
+    color: red;
+}
+
+.fa-heart {
+    color: rgb(221, 46, 104);
+}
+
+.fa-chevron-circle-right {
+    color: purple;
+    width: 50px;
+    float: right;
+}
+
+.fa-chevron-circle-left {
+    color: purple;
+    width: 50px;
+    float: inherit;
+}
+
+.fa-heart:hover {
+    color: rgb(221, 46, 104);
+}
+
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid purple;
+    border-radius: 8px;
+    background: purple;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    border: blueviolet;
+}
+
+.column1 {
+
+    margin: 5px;
+    display: inline-flex;
+    background-color: rgb(210, 209, 209);
+    align-items: center;
+    height: fit-content;
+}
+
+#auctions {
+    margin: 34px;
+}
+
+.column2 {
+    float: left;
+    padding: 30px;
+    margin: 3px 6px;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+    width: 300px;
+}
+
+.column3 {
+    float: left;
+    padding: 30px;
+    margin: 3px 6px;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+    width: 300px;
+}
+
+.column4 {
+    float: left;
+    padding: 30px;
+    margin: 3px 6px;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+    width: 300px;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 420px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
